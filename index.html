@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#06142d">
+<title>IA Ladakh Market Online</title>
+<style>
+:root{--bg:#070b20;--panel:#0d1530;--line:#273a70;--cyan:#31eaff;--pink:#ffcc32;--purple:#005cff;--text:#f5f7ff;--muted:#b5c1e5}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 50% 0,#18265a 0,#070b20 58%);color:var(--text);font-family:Arial,sans-serif}button,input,textarea,select{font:inherit}button{cursor:pointer}.top{position:sticky;top:0;z-index:20;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;padding:12px 18px;background:#070b20ed;border-bottom:1px solid var(--line);backdrop-filter:blur(15px)}.brand{display:flex;align-items:center;gap:10px;font-size:20px;font-weight:900}.logo{width:45px;height:45px;border:2px solid var(--cyan);border-radius:15px;display:grid;place-items:center;font-size:19px;font-weight:900;color:var(--cyan);text-shadow:0 0 12px var(--cyan);box-shadow:0 0 18px #31eaff44}.gradient{background:linear-gradient(90deg,#fff,var(--cyan),var(--pink));color:transparent;background-clip:text}.nav{display:flex;gap:7px;flex-wrap:wrap}.btn{border:1px solid #354a86;background:#131e43;color:white;border-radius:10px;padding:10px 13px}.btn:hover{border-color:var(--cyan);box-shadow:0 0 14px #31eaff25}.primary{background:linear-gradient(110deg,#6828ff,#bf28df);border:0}.wrap{max-width:1400px;margin:auto;padding:16px}.hero{position:relative;overflow:hidden;display:grid;grid-template-columns:1fr;gap:18px;padding:25px;border:1px solid #3448a4;border-radius:22px;background:linear-gradient(125deg,#171452,#091c43 58%,#281047);box-shadow:0 0 32px #684bff25}.hero:before{content:"";position:absolute;width:240px;height:240px;border-radius:50%;right:10%;top:-120px;background:#28e6ff25;filter:blur(20px)}.hero h1{font-size:clamp(30px,6vw,56px);margin:10px 0}.hero p{color:var(--muted);line-height:1.6}.hero-logo{font-size:68px;text-align:center;color:var(--cyan);text-shadow:0 0 25px #31eaff}.hero-side{border:1px solid #455bb0;border-radius:17px;padding:16px;background:#050b20b8}.field{width:100%;padding:12px;margin:5px 0;border-radius:10px;border:1px solid #354675;background:#080f28;color:white}.muted{font-size:13px;color:var(--muted);line-height:1.55}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.card{min-width:0;padding:15px;border:1px solid var(--line);border-radius:16px;background:linear-gradient(145deg,#101b3aee,#0a1028ee);box-shadow:0 8px 25px #0002}.card h3{margin:0 0 9px}.stat{font-size:25px;font-weight:900;color:var(--cyan);margin:10px 0}.section{margin:22px 0}.section-title{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap}.wide{grid-column:1/-1}.assistant-row{display:flex;gap:9px;flex-wrap:wrap;margin:12px 0}.messages{height:220px;overflow:auto;border:1px solid #263a70;border-radius:12px;background:#050a1b;padding:12px}.msg{margin:9px 0;line-height:1.5;white-space:pre-wrap;overflow-wrap:anywhere}.formrow{display:flex;gap:8px;margin-top:9px}.formrow input{min-width:0;flex:1}.item{padding:10px 0;border-bottom:1px solid #25365f;overflow-wrap:anywhere}.item img{max-width:100%;width:180px;border-radius:10px;display:block;margin-bottom:8px}.pill{display:inline-block;padding:5px 9px;border-radius:30px;background:#102a4b;color:var(--cyan);font-size:12px}.hidden{display:none!important}.progress{height:7px;border-radius:10px;background:#1c2b52;overflow:hidden}.progress span{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--purple),var(--cyan));transition:width .2s}footer{text-align:center;padding:24px;color:var(--muted);font-size:12px}.toast{position:fixed;bottom:18px;left:50%;transform:translateX(-50%);z-index:50;display:none;background:#17274a;border:1px solid var(--cyan);border-radius:12px;padding:12px 16px;max-width:90%;box-shadow:0 0 25px #0008}.loader{position:fixed;inset:0;z-index:100;background:#060a1b;display:grid;place-items:center;transition:opacity .5s}.loader-inner{text-align:center;width:min(340px,85vw)}.loader-logo{font-size:70px;font-weight:1000;color:var(--cyan);text-shadow:0 0 30px var(--purple);animation:pulse 1.2s infinite alternate}.loaderbar{height:8px;border:1px solid #4456a2;border-radius:20px;overflow:hidden;margin:22px 0}.loaderbar span{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--purple),var(--cyan));animation:load 1.8s ease forwards}@keyframes load{to{width:100%}}@keyframes pulse{to{transform:scale(1.07);text-shadow:0 0 35px var(--cyan)}}@media(min-width:760px){.wrap{padding:24px}.hero{grid-template-columns:1.5fr .8fr;align-items:center;padding:34px}.grid{grid-template-columns:repeat(4,minmax(0,1fr))}.wide{grid-column:span 2}}@media(max-width:500px){.top{padding:10px}.nav .btn{padding:8px;font-size:12px}.formrow{flex-wrap:wrap}.hero{padding:18px}}
+</style>
+
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#06142d">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+
+</head>
+<body>
+<div class="loader" id="loader"><div class="loader-inner"><div class="loader-logo">IA</div><h1 class="gradient">IA LADAKH</h1><p>MARKET ONLINE • KARGIL</p><div class="loaderbar"><span></span></div><div id="loadText" class="muted">Loading your universe...</div></div></div>
+<header class="top">
+ <div class="brand"><div class="logo">IA</div><div><span class="gradient">IA LADAKH</span><div class="muted">Market Online • Kargil</div></div></div>
+ <nav class="nav"><button class="btn" onclick="Hub.jump('dashboard')">⌂ Home</button><button class="btn" onclick="Hub.jump('ai')">✦ AI</button><button class="btn" onclick="Hub.jump('market')">🛍 Shop</button><button class="btn" onclick="Hub.jump('gaming')">🎮 Gaming</button><button class="btn" onclick="Hub.jump('services')">⚙ Services</button></nav>
+ <button class="btn" onclick="Hub.logout()">Logout</button>
+</header>
+<main class="wrap">
+<section class="hero">
+ <div><div class="pill">📍 KARGIL • LADAKH</div><h1 class="gradient">LADAKH<br>MARKET ONLINE</h1><h3>Sab Kuch, Aap Ke Liye</h3><p>Kargil aur Ladakh ke liye marketplace — mobile accessories, fashion, home & kitchen, daily needs aur digital services.</p><div class="row"><button class="btn primary" onclick="Hub.jump('ai')">Explore AI →</button><button class="btn" onclick="Hub.jump('dashboard')">Open Dashboard</button></div><p class="muted">Asifa — Owner Assistant · Zahra — Customer Assistant</p><img src="banner.png" alt="IA Ladakh Market Online - Kargil Ladakh" style="display:block;width:100%;max-height:310px;object-fit:cover;border-radius:16px;border:2px solid #18dfff;box-shadow:0 0 22px #00cfff55;margin-top:16px"></div>
+ <div class="hero-side" id="authCard"><h3>🔐 Login / Create Account</h3><input class="field" id="email" type="email" placeholder="Email address" autocomplete="email"><input class="field" id="password" type="password" placeholder="Password (min 6 characters)" autocomplete="current-password"><div class="row"><button class="btn primary" onclick="Hub.login()">Login</button><button class="btn" onclick="Hub.register()">Create Account</button></div><button class="btn" style="width:100%;margin-top:8px" onclick="Hub.google()">Continue with Google</button><p id="authMsg" class="muted">Welcome to IA Ladakh Market Online ✨</p></div>
+</section>
+<section class="section" id="dashboard"><div class="section-title"><h2>🚀 Command Dashboard</h2><span class="pill" id="authStatus">Guest Mode</span></div><div class="grid">
+<div class="card"><h3>🤖 AI Center</h3><div class="stat">AI+</div><p class="muted">Asifa & Zahra assistants</p><button class="btn primary" onclick="Hub.jump('ai')">Open AI →</button></div>
+<div class="card"><h3>🛍️ Marketplace</h3><div class="stat">SHOP</div><p class="muted">Browse and list products</p><button class="btn" onclick="Hub.jump('market')">Open Shop →</button></div>
+<div class="card"><h3>🎮 Gaming Arena</h3><div class="stat">PLAY</div><p class="muted">Free Fire / BGMI</p><button class="btn" onclick="Hub.jump('gaming')">Open Gaming →</button></div>
+<div class="card"><h3>🖥️ Digital Services</h3><div class="stat">PRO</div><p class="muted">Printing and computer help</p><button class="btn" onclick="Hub.jump('services')">Open Services →</button></div>
+<div class="card"><h3>📋 My Requests</h3><div class="stat" id="requestCount">0</div><p class="muted">Your submitted requests</p><button class="btn" onclick="Hub.jump('requests')">View Requests</button></div>
+<div class="card"><h3>👤 My Profile</h3><div class="stat">USER</div><p class="muted">Your account details</p><button class="btn" onclick="Hub.jump('profile')">Open Profile</button></div>
+<div class="card"><h3>🧑‍💼 Seller Center</h3><div class="stat">SELL</div><p class="muted">Apply to become a seller</p><button class="btn" onclick="Hub.jump('seller')">Apply Now</button></div>
+<div class="card"><h3>🛡️ Admin Panel</h3><div class="stat">SECURE</div><p class="muted">Owner access must be server-verified</p><button class="btn" onclick="Hub.adminInfo()">Admin Status</button></div>
+</div></section>
+<section class="section grid">
+<div class="card wide" id="ai"><h2>🤖 AI Command Center</h2><div class="assistant-row"><button class="btn primary" onclick="Hub.setPersona('Asifa')">👑 Asifa</button><button class="btn" onclick="Hub.setPersona('Zahra')">💜 Zahra</button><button class="btn" onclick="Hub.voice()">🎙 Voice Input</button><button class="btn" onclick="Hub.stopVoice()">🔇 Stop</button></div><div class="messages" id="messages"><div class="msg"><b>Asifa:</b> IA Ladakh Market Online mein welcome! Main demo assistant hoon. Aapko kis cheez mein help chahiye?</div></div><div class="formrow"><input class="field" id="aiInput" placeholder="Ask about products, gaming or services..." onkeydown="if(event.key==='Enter')Hub.askAI()"><button class="btn primary" onclick="Hub.askAI()">Send ➤</button></div><p class="muted">Demo chat is rule-based. Real AI requires a protected backend endpoint.</p></div>
+<div class="card" id="market"><h2>🛍️ Marketplace</h2><input class="field" id="productSearch" placeholder="Search products..." oninput="Hub.filterProducts()"><div id="productsList" class="muted">Sign in and configure Firebase to load products.</div><h3>➕ List Product</h3><input class="field" id="productName" placeholder="Product name"><input class="field" id="productPrice" type="number" min="0" placeholder="Price"><textarea class="field" id="productDescription" placeholder="Product description"></textarea><input class="field" id="productImage" type="file" accept="image/*"><button class="btn primary" onclick="Hub.addProduct()">Submit Product</button><p id="cartInfo" class="muted">Cart items: 0 (session only)</p></div>
+<div class="card" id="gaming"><h2>🎮 Gaming Arena</h2><p class="muted">Tournament interest form</p><input class="field" id="gameName" placeholder="Game name: Free Fire / BGMI"><select class="field" id="gameMode"><option>Solo</option><option>Duo</option><option>Squad</option><option>1v1</option></select><input class="field" id="gamePlayer" placeholder="Player / team name"><button class="btn primary" onclick="Hub.submitRequest('tournament')">Register Interest</button><p class="muted">Live lobby, entry fee and prizes need separate verified backend workflows.</p></div>
+<div class="card" id="services"><h2>🖥️ Digital Services</h2><input class="field" id="serviceName" placeholder="Printing / photocopy / computer help"><input class="field" id="serviceContact" placeholder="Contact (optional)"><textarea class="field" id="serviceDetails" placeholder="Request details"></textarea><button class="btn primary" onclick="Hub.submitRequest('service')">Submit Request</button></div>
+<div class="card" id="seller"><h2>🏪 Seller Application</h2><input class="field" id="sellerName" placeholder="Shop / seller name"><textarea class="field" id="sellerDetails" placeholder="What would you like to sell?"></textarea><button class="btn primary" onclick="Hub.submitRequest('seller')">Apply Now</button></div>
+<div class="card" id="profile"><h2>👤 My Profile</h2><p id="profileInfo" class="muted">Guest user. Login to save your profile.</p><input class="field" id="displayName" placeholder="Display name"><button class="btn primary" onclick="Hub.saveProfile()">Save Profile</button></div>
+<div class="card" id="requests"><h2>📋 My Requests</h2><div id="requestsList" class="muted">No requests loaded.</div></div>
+<div class="card" id="firebase"><h2>🔥 Firebase Status</h2><p id="firebaseStatus" class="muted">Firebase not configured yet.</p><div class="progress"><span id="firebaseProgress"></span></div><p class="muted">Authentication • Firestore • Storage</p></div>
+</section>
+</main>
+<footer><div class="brand" style="justify-content:center"><div class="logo">IA</div><span class="gradient">IA LADAKH MARKET ONLINE</span></div><p>Sab Kuch, Aap Ke Liye</p><p>Firebase features require configuration and secure database rules.</p></footer>
+<div class="toast" id="toast"></div>
+
+<script>
+/* Firebase Console > Project settings > Your apps > Web app
+   Replace all placeholder values with your actual web config. */
+const firebaseConfig={
+ apiKey:"PASTE_YOUR_FIREBASE_API_KEY",
+ authDomain:"PASTE_YOUR_PROJECT.firebaseapp.com",
+ projectId:"PASTE_YOUR_PROJECT_ID",
+ storageBucket:"PASTE_YOUR_STORAGE_BUCKET",
+ messagingSenderId:"PASTE_YOUR_SENDER_ID",
+ appId:"PASTE_YOUR_APP_ID"
+};
+
+const Hub={
+ auth:null,db:null,storage:null,user:null,ready:false,persona:"Asifa",products:[],requests:[],cart:[],
+ init(){
+  setTimeout(()=>{const l=document.getElementById('loader');l.style.opacity='0';setTimeout(()=>l.remove(),550)},1900);
+  const valid=firebaseConfig.apiKey.startsWith("AIza")&&!firebaseConfig.projectId.includes("PASTE_")&&!firebaseConfig.appId.includes("PASTE_");
+  if(!valid){this.status("Firebase setup pending. Add your Firebase web config in the code.");return}
+  try{
+   if(!firebase.apps.length)firebase.initializeApp(firebaseConfig);
+   this.auth=firebase.auth();this.db=firebase.firestore();this.storage=firebase.storage();this.ready=true;
+   this.status("Firebase SDK initialized. Checking sign-in...");
+   this.auth.onAuthStateChanged(async user=>{
+    this.user=user;
+    document.getElementById('authStatus').textContent=user?(user.displayName||user.email):"Guest Mode";
+    document.getElementById('authCard').classList.toggle('hidden',!!user);
+    document.getElementById('profileInfo').textContent=user?"Signed in: "+user.email:"Guest user. Login to save your profile.";
+    if(user){await this.loadProfile();await this.loadProducts();await this.loadRequests()}
+   });
+  }catch(e){this.status("Firebase initialization error: "+e.message)}
+ },
+ status(t){document.getElementById('firebaseStatus').textContent=t},
+ toast(t){const x=document.getElementById('toast');x.textContent=t;x.style.display='block';clearTimeout(this.toastTimer);this.toastTimer=setTimeout(()=>x.style.display='none',3500)},
+ jump(id){document.getElementById(id).scrollIntoView({behavior:'smooth',block:'start'})},
+ async login(){if(!this.ready)return this.toast("Firebase config pehle add karo.");const e=document.getElementById('email').value.trim(),p=document.getElementById('password').value;if(!e||!p)return this.toast("Email aur password likho.");try{await this.auth.signInWithEmailAndPassword(e,p)}catch(x){this.toast(x.message)}},
+ async register(){if(!this.ready)return this.toast("Firebase config pehle add karo.");const e=document.getElementById('email').value.trim(),p=document.getElementById('password').value;if(!e||p.length<6)return this.toast("Email aur minimum 6-character password likho.");try{const c=await this.auth.createUserWithEmailAndPassword(e,p);await c.user.sendEmailVerification();this.toast("Account created. Email verification link check karo.")}catch(x){this.toast(x.message)}},
+ async google(){if(!this.ready)return this.toast("Firebase config pehle add karo.");try{await this.auth.signInWithPopup(new firebase.auth.GoogleAuthProvider())}catch(x){this.toast("Google sign-in: "+x.message)}},
+ async logout(){if(this.auth&&this.user)try{await this.auth.signOut()}catch(e){this.toast(e.message)}},
+ async loadProfile(){try{const s=await this.db.collection('users').doc(this.user.uid).get();document.getElementById('displayName').value=s.exists?s.data().displayName||'':this.user.displayName||''}catch(e){console.log(e.message)}},
+ async saveProfile(){if(!this.user)return this.toast("Pehle login karo.");const name=document.getElementById('displayName').value.trim();if(!name)return this.toast("Display name likho.");try{await this.db.collection('users').doc(this.user.uid).set({displayName:name,email:this.user.email,updatedAt:firebase.firestore.FieldValue.serverTimestamp()},{merge:true});await this.user.updateProfile({displayName:name});this.toast("Profile saved.")}catch(e){this.toast("Profile error: "+e.message)}},
+ async addProduct(){if(!this.user)return this.toast("Product submit karne ke liye login karo.");const name=document.getElementById('productName').value.trim(),price=Number(document.getElementById('productPrice').value),description=document.getElementById('productDescription').value.trim(),file=document.getElementById('productImage').files[0];if(!name||!Number.isFinite(price)||price<0)return this.toast("Product name aur valid price likho.");if(file&&file.size>5*1024*1024)return this.toast("Image 5 MB se chhoti rakho.");try{let imageUrl="";if(file){const path='productImages/'+this.user.uid+'/'+Date.now()+'_'+file.name.replace(/[^a-zA-Z0-9._-]/g,'_');const r=this.storage.ref(path);await r.put(file);imageUrl=await r.getDownloadURL()}await this.db.collection('products').add({name,price,description,imageUrl,ownerUid:this.user.uid,createdAt:firebase.firestore.FieldValue.serverTimestamp()});this.toast("Product submitted.");await this.loadProducts()}catch(e){this.toast("Product error: "+e.message)}},
+ async loadProducts(){try{const s=await this.db.collection('products').orderBy('createdAt','desc').limit(50).get();this.products=s.docs.map(d=>({id:d.id,...d.data()}));this.renderProducts()}catch(e){document.getElementById('productsList').textContent="Products load nahi hue. Firestore rules/index check karo."}},
+ renderProducts(){const box=document.getElementById('productsList');box.replaceChildren();if(!this.products.length){box.textContent="Abhi koi product nahi mila.";return}this.products.forEach(p=>{const el=document.createElement('div');el.className='item';if(p.imageUrl){const im=document.createElement('img');im.src=p.imageUrl;im.alt=p.name||'Product';im.loading='lazy';el.appendChild(im)}const b=document.createElement('b');b.textContent=p.name||'Product';el.appendChild(b);const pr=document.createElement('p');pr.textContent='Price: '+(p.price??'Contact seller');el.appendChild(pr);const d=document.createElement('p');d.className='muted';d.textContent=p.description||'';el.appendChild(d);const bt=document.createElement('button');bt.className='btn';bt.textContent='Add to Cart';bt.onclick=()=>{this.cart.push(p.id);document.getElementById('cartInfo').textContent='Cart items: '+this.cart.length+' (session only)'};el.appendChild(bt);box.appendChild(el)})},
+ filterProducts(){const q=document.getElementById('productSearch').value.toLowerCase();document.querySelectorAll('#productsList .item').forEach(el=>el.classList.toggle('hidden',!el.textContent.toLowerCase().includes(q)))},
+ async submitRequest(type){if(!this.user)return this.toast("Request ke liye login karo.");const d={type,uid:this.user.uid,status:'pending',createdAt:firebase.firestore.FieldValue.serverTimestamp()};if(type==='tournament'){d.game=document.getElementById('gameName').value.trim();d.mode=document.getElementById('gameMode').value;d.player=document.getElementById('gamePlayer').value.trim();if(!d.game||!d.player)return this.toast("Game aur player/team name likho.")}if(type==='service'){d.service=document.getElementById('serviceName').value.trim();d.contact=document.getElementById('serviceContact').value.trim();d.details=document.getElementById('serviceDetails').value.trim();if(!d.service||!d.details)return this.toast("Service aur details likho.")}if(type==='seller'){d.sellerName=document.getElementById('sellerName').value.trim();d.details=document.getElementById('sellerDetails').value.trim();if(!d.sellerName||!d.details)return this.toast("Seller name aur details likho.")}try{await this.db.collection('requests').add(d);this.toast("Request submitted.");await this.loadRequests()}catch(e){this.toast("Request error: "+e.message)}},
+ async loadRequests(){try{const s=await this.db.collection('requests').where('uid','==',this.user.uid).limit(50).get();this.requests=s.docs.map(d=>({id:d.id,...d.data()}));document.getElementById('requestCount').textContent=this.requests.length;const box=document.getElementById('requestsList');box.replaceChildren();if(!this.requests.length){box.textContent="Abhi koi request nahi.";return}this.requests.forEach(r=>{const el=document.createElement('div');el.className='item';el.textContent=(r.type||'Request')+' — '+(r.status||'pending');box.appendChild(el)})}catch(e){document.getElementById('requestsList').textContent="Requests load nahi hui. Database rules check karo."}},
+ adminInfo(){this.toast("Admin role server-side Firebase custom claims se verify hona chahiye; frontend email check secure nahi hai.")},
+ setPersona(p){this.persona=p;this.addMessage(p,p+" selected. Main demo assistant hoon.")}
+ ,addMessage(who,msg){const box=document.getElementById('messages'),el=document.createElement('div');el.className='msg';const b=document.createElement('b');b.textContent=who+": ";el.appendChild(b);el.appendChild(document.createTextNode(msg));box.appendChild(el);box.scrollTop=box.scrollHeight},
+ async askAI(){const input=document.getElementById('aiInput'),q=input.value.trim();if(!q)return;input.value='';this.addMessage('You',q);let a="Main demo mode mein hoon. Real AI ke liye secure backend endpoint connect karo.";const t=q.toLowerCase();if(/hello|hi|salam|assalam/.test(t))a="Salam! IA Ladakh Market Online mein welcome. Main products, gaming aur services mein guide kar sakti hoon.";else if(/free fire|bgmi|game|tournament/.test(t))a="Gaming Arena mein game aur team details submit karke tournament interest register kar sakte ho.";else if(/product|shop|market|seller|cart/.test(t))a="Marketplace mein products list/search aur session cart demo available hai. Real orders ke liye checkout backend chahiye.";else if(/service|computer|print|photocopy/.test(t))a="Digital Services form mein apni service aur request details submit karo.";else if(/owner|admin|asifa/.test(t))a="Asifa owner workflows ke liye hai. Sensitive admin actions server par verify hone chahiye.";else if(/zahra|customer|help/.test(t))a="Zahra customer guidance ke liye hai. Apna sawal detail mein likho.";const AI_BACKEND_URL='';if(AI_BACKEND_URL){try{const r=await fetch(AI_BACKEND_URL,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({message:q,persona:this.persona})});if(!r.ok)throw Error('AI unavailable');const j=await r.json();a=j.reply||a}catch(e){a+=' AI backend filhaal unavailable hai.'}}this.addMessage(this.persona,a)},
+ voice(){const SR=window.SpeechRecognition||window.webkitSpeechRecognition;if(!SR)return this.addMessage('System','Voice recognition browser mein supported nahi. Type karke bhejo.');const r=new SR();r.lang='hi-IN';r.onresult=e=>{document.getElementById('aiInput').value=e.results[0][0].transcript;this.askAI()};r.onerror=()=>this.addMessage('System','Microphone permission ya browser support check karo.');r.start()},
+ stopVoice(){if('speechSynthesis'in window)speechSynthesis.cancel();this.addMessage('System','Voice playback stopped.')}
+};
+Hub.init();
+</script>
+
+<script>
+if ('serviceWorker' in navigator && location.protocol !== 'file:') {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('./service-worker.js')
+      .then(() => console.log('Super Hub PWA service worker ready'))
+      .catch(err => console.log('PWA offline setup:', err));
+  });
+}
+</script>
+
+</body>
+</html>
