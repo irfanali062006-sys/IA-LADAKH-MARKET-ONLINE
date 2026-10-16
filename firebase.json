@@ -1,0 +1,8 @@
+{
+  "functions": [{ "source": "functions", "codebase": "default" }],
+  "hosting": {
+    "public": ".",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**", "functions/**", "scripts/**", "README.txt"],
+    "rewrites": [{ "source": "/api/ai", "function": { "functionId": "aiAssistant", "region": "asia-south1" } }]
+  }
+}
